@@ -13,6 +13,7 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
 a {
@@ -83,4 +84,10 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 20px;
+}
+
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
