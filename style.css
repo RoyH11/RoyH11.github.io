@@ -141,7 +141,7 @@ h2 {
 
 .section ul {
     list-style: disc;
-    margin-left: 20px;
+    margin-left: none;
 }
 
 .section ul li {
