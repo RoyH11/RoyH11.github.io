@@ -34,8 +34,16 @@
     
 }
 
-/* dropdown button and navList on mobile screen*/
+
 @media screen and (max-width: 600px) {
+
+    /* try to fix safari messing with the background image */
+    _::-webkit-full-page-media, _:future, :root .safari_only {
+        padding-bottom: 65px;
+    }
+
+
+    /* dropdown button and navList on mobile screen*/
     #dropdownButton {
         display: block;
         background-color: lightblue;
@@ -70,6 +78,10 @@
     }
 }
 
+html, body {
+    min-height: 100vh;
+    /* other styles... */
+}
 
 body::before {
     content: "";
@@ -83,16 +95,11 @@ body::before {
     z-index: -1; 
 }
 
-/* html, body {
-    min-height: 100vh;
-}*/
-
 
 body {
     font-family: Arial, sans-serif;
     background-color: transparent;
     margin: 0;
-    padding: 0 0 60px 0; /* Add padding to the bottom */
 }
 
 .carousel-style {
