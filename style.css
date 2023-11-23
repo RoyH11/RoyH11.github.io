@@ -41,18 +41,19 @@
 
     #navList {
         display: none;
-        justify-content: center;
         list-style-type: none;
         margin: 0;
         padding: 0;
         overflow: hidden;
         background-color: #333;
     }
-
+    
     #navList li {
         float: left;
+        display: block;
+        width: 100%;
     }
-
+    
     #navList li a {
         display: block;
         color: white;
@@ -60,7 +61,7 @@
         padding: 14px 16px;
         text-decoration: none;
     }
-
+    
     #navList li a:hover {
         background-color: #111;
     }
