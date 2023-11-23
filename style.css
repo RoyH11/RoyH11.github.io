@@ -72,21 +72,17 @@
     }
 }
 
-body::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url(images/bg.jpg) no-repeat center center;
-    background-size: cover;
-    z-index: -1; 
-}
+
 
 body {
     font-family: Arial, sans-serif;
-    background-color: transparent;
+
+    background-image: url('images/bg.jpg'); /* Replace with the path to your image */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     margin: 0;
     padding: 0 0 60px 0; /* bottom padding for footer */
 }
@@ -174,7 +170,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin: 0 20px;
+    margin: 0 ;
 }
 
 .carousel-container {
