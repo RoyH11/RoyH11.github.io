@@ -1,4 +1,6 @@
 /* style.css */
+
+/* dropdown button and navList on pc screen*/
 @media screen and (min-width: 601px) {
     #dropdownButton {
         display: none;
@@ -32,6 +34,7 @@
     
 }
 
+/* dropdown button and navList on mobile screen*/
 @media screen and (max-width: 600px) {
     #dropdownButton {
         display: block;
@@ -70,28 +73,27 @@
 
 body::before {
     content: "";
-    position: fixed; /* can also be absolute */
+    position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(images/bg.jpg) center center fixed;
+    background: url(images/bg.jpg) no-repeat center center;
     background-size: cover;
     z-index: -1; 
 }
 
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
 
 .carousel-style {
     width: 35%;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: transparent;;
-    margin: 0;
-    padding: 0;
-}
 
 .container {
     max-width: 800px;
