@@ -87,7 +87,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: transparent;
     margin: 0;
-    padding: 0;
+    padding: 0 0 60px 0; /* Add padding to the bottom */
 }
 
 .carousel-style {
