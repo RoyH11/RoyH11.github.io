@@ -73,18 +73,21 @@
 }
 
 
+.body-bg-gw {
+    background-image: url('images/great_wall.jpg'); /* Replace with the path to your image */
+    
+}
 
 body {
     font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 60px 0; /* bottom padding for footer */
 
-    background-image: url('images/bg.jpg'); /* Replace with the path to your image */
+    background-image: none;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    margin: 0;
-    padding: 0 0 60px 0; /* bottom padding for footer */
 }
 
 .carousel-style {
@@ -99,7 +102,7 @@ body {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
 
 }
 
