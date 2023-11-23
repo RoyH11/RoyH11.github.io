@@ -72,7 +72,8 @@
 .body-style {
     background-image: url('images/bg.jpg');
     background-size: 100%;
-    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
 
