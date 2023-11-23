@@ -68,12 +68,16 @@
 }
 
 
-
-.body-style {
-    background-image: url('images/bg.jpg');
-    background-size: 100%;
+body::before {
+    content: "";
+    position: fixed; /* can also be absolute */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(images/bg.jpg) center center fixed;
     background-size: cover;
-    background-attachment: scroll;
+    z-index: -1; 
 }
 
 
@@ -84,7 +88,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: transparent;;
     margin: 0;
     padding: 0;
 }
