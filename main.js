@@ -1,6 +1,8 @@
 window.onload = function() {
     if (window.matchMedia("(max-width: 600px)").matches) {
         document.getElementById('navList').style.display = 'none';
+        //document.body.style.height = window.innerHeight + 'px';
+
     }
 };
 
