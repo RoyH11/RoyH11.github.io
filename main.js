@@ -1,10 +1,9 @@
 window.onload = function() {
     var dropdownButton = document.getElementById('dropdownButton');
     var navList = document.getElementById('navList');
-    navList.style.display = 'none';
 
     dropdownButton.addEventListener('click', function() {
-        var display = navList.style.display;
+        var display = window.getComputedStyle(navList).display;
         
         if (display == 'none') {
             navList.style.display = 'block';
